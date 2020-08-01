@@ -6,9 +6,9 @@
             <name>LED-CAN</name>
             <creation-uuid>803f7e34-af07-4b43-83bc-8a25099980bd</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions/>
+            <c-extensions>c</c-extensions>
             <cpp-extensions/>
-            <header-extensions/>
+            <header-extensions>h</header-extensions>
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>

@@ -1,0 +1,722 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26K83 ]
+[d frameptr 4065 ]
+"88 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/tmr2.c
+[e E22561 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E22584 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_CCP4_OUT 7
+TMR2_PWM5_OUT 8
+TMR2_PWM6_OUT 9
+TMR2_PWM7_OUT 10
+TMR2_PWM8_OUT 11
+TMR2_RESERVED_2 12
+TMR2_RESERVED_3 13
+TMR2_C1_OUT_SYNC 14
+TMR2_C2_OUT_SYNC 15
+TMR2_ZCD_OUTPUT 16
+TMR2_CLC1_OUT 17
+TMR2_CLC2_OUT 18
+TMR2_CLC3_OUT 19
+TMR2_CLC4_OUT 20
+TMR2_UART1_RX_EDGE 21
+TMR2_UART1_TX_EDGE 22
+TMR2_UART2_RX_EDGE 23
+TMR2_UART2_TX_EDGE 24
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"49 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"61 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/ecan.c
+[v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
+"363
+[v _convertReg2ExtendedCANid convertReg2ExtendedCANid `(ul  1 s 4 convertReg2ExtendedCANid ]
+"384
+[v _convertReg2StandardCANid convertReg2StandardCANid `(ul  1 s 4 convertReg2StandardCANid ]
+"397
+[v _convertCANid2Reg convertCANid2Reg `(v  1 s 1 convertCANid2Reg ]
+"50 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"62
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"76
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pwm7.c
+[v _PWM7_Initialize PWM7_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+"270 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f26k83.h
+[v _CIOCON CIOCON `VEuc  1 e 1 @14080 ]
+"437
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @14083 ]
+"513
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @14084 ]
+"589
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @14085 ]
+"2022
+[v _T2TMR T2TMR `VEuc  1 e 1 @16298 ]
+"2027
+[v _TMR2 TMR2 `VEuc  1 e 1 @16298 ]
+"2060
+[v _T2PR T2PR `VEuc  1 e 1 @16299 ]
+"2065
+[v _PR2 PR2 `VEuc  1 e 1 @16299 ]
+"2098
+[v _T2CON T2CON `VEuc  1 e 1 @16300 ]
+[s S896 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"2134
+[s S900 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S904 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+[s S912 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S921 . 1 `S896 1 . 1 0 `S900 1 . 1 0 `S904 1 . 1 0 `S912 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES921  1 e 1 @16300 ]
+"2244
+[v _T2HLT T2HLT `VEuc  1 e 1 @16301 ]
+[s S782 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"2277
+[s S787 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S793 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S798 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S804 . 1 `S782 1 . 1 0 `S787 1 . 1 0 `S793 1 . 1 0 `S798 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES804  1 e 1 @16301 ]
+"2372
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @16302 ]
+"2530
+[v _T2RST T2RST `VEuc  1 e 1 @16303 ]
+[s S858 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"2557
+[s S860 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+[s S866 . 1 `uc 1 T2RSEL 1 0 :5:0 
+]
+[s S868 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+]
+[u S874 . 1 `S858 1 . 1 0 `S860 1 . 1 0 `S866 1 . 1 0 `S868 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES874  1 e 1 @16303 ]
+"4130
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"4242
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+"4354
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"4466
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"4528
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"4590
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+"13960
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @14240 ]
+"14080
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @14241 ]
+"14168
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @14242 ]
+"14238
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @14243 ]
+"14308
+[v _RXF1SIDH RXF1SIDH `VEuc  1 e 1 @14244 ]
+"14428
+[v _RXF1SIDL RXF1SIDL `VEuc  1 e 1 @14245 ]
+"14516
+[v _RXF1EIDH RXF1EIDH `VEuc  1 e 1 @14246 ]
+"14586
+[v _RXF1EIDL RXF1EIDL `VEuc  1 e 1 @14247 ]
+"14656
+[v _RXF2SIDH RXF2SIDH `VEuc  1 e 1 @14248 ]
+"14776
+[v _RXF2SIDL RXF2SIDL `VEuc  1 e 1 @14249 ]
+"14864
+[v _RXF2EIDH RXF2EIDH `VEuc  1 e 1 @14250 ]
+"14934
+[v _RXF2EIDL RXF2EIDL `VEuc  1 e 1 @14251 ]
+"15004
+[v _RXF3SIDH RXF3SIDH `VEuc  1 e 1 @14252 ]
+"15124
+[v _RXF3SIDL RXF3SIDL `VEuc  1 e 1 @14253 ]
+"15212
+[v _RXF3EIDH RXF3EIDH `VEuc  1 e 1 @14254 ]
+"15282
+[v _RXF3EIDL RXF3EIDL `VEuc  1 e 1 @14255 ]
+"15352
+[v _RXF4SIDH RXF4SIDH `VEuc  1 e 1 @14256 ]
+"15472
+[v _RXF4SIDL RXF4SIDL `VEuc  1 e 1 @14257 ]
+"15560
+[v _RXF4EIDH RXF4EIDH `VEuc  1 e 1 @14258 ]
+"15630
+[v _RXF4EIDL RXF4EIDL `VEuc  1 e 1 @14259 ]
+"15700
+[v _RXF5SIDH RXF5SIDH `VEuc  1 e 1 @14260 ]
+"15820
+[v _RXF5SIDL RXF5SIDL `VEuc  1 e 1 @14261 ]
+"15908
+[v _RXF5EIDH RXF5EIDH `VEuc  1 e 1 @14262 ]
+"15978
+[v _RXF5EIDL RXF5EIDL `VEuc  1 e 1 @14263 ]
+"16048
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @14264 ]
+"16168
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @14265 ]
+"16256
+[v _RXM0EIDH RXM0EIDH `VEuc  1 e 1 @14266 ]
+"16326
+[v _RXM0EIDL RXM0EIDL `VEuc  1 e 1 @14267 ]
+"16396
+[v _RXM1SIDH RXM1SIDH `VEuc  1 e 1 @14268 ]
+"16516
+[v _RXM1SIDL RXM1SIDL `VEuc  1 e 1 @14269 ]
+"16604
+[v _RXM1EIDH RXM1EIDH `VEuc  1 e 1 @14270 ]
+"16674
+[v _RXM1EIDL RXM1EIDL `VEuc  1 e 1 @14271 ]
+[s S234 . 1 `uc 1 TXPRI 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXREQ 1 0 :1:3 
+`uc 1 TXERR 1 0 :1:4 
+`uc 1 TXLARB 1 0 :1:5 
+`uc 1 TXABT 1 0 :1:6 
+`uc 1 TXBIF 1 0 :1:7 
+]
+"16764
+[s S242 . 1 `uc 1 TXPRI0 1 0 :1:0 
+`uc 1 TXPRI1 1 0 :1:1 
+]
+[u S245 . 1 `S234 1 . 1 0 `S242 1 . 1 0 ]
+[v _TXB2CONbits TXB2CONbits `VES245  1 e 1 @14272 ]
+"16809
+[v _TXB2SIDH TXB2SIDH `VEuc  1 e 1 @14273 ]
+"16929
+[v _TXB2SIDL TXB2SIDL `VEuc  1 e 1 @14274 ]
+"17017
+[v _TXB2EIDH TXB2EIDH `VEuc  1 e 1 @14275 ]
+"17087
+[v _TXB2EIDL TXB2EIDL `VEuc  1 e 1 @14276 ]
+"17157
+[v _TXB2DLC TXB2DLC `VEuc  1 e 1 @14277 ]
+"17210
+[v _TXB2D0 TXB2D0 `VEuc  1 e 1 @14278 ]
+"17280
+[v _TXB2D1 TXB2D1 `VEuc  1 e 1 @14279 ]
+"17350
+[v _TXB2D2 TXB2D2 `VEuc  1 e 1 @14280 ]
+"17420
+[v _TXB2D3 TXB2D3 `VEuc  1 e 1 @14281 ]
+"17490
+[v _TXB2D4 TXB2D4 `VEuc  1 e 1 @14282 ]
+"17560
+[v _TXB2D5 TXB2D5 `VEuc  1 e 1 @14283 ]
+"17630
+[v _TXB2D6 TXB2D6 `VEuc  1 e 1 @14284 ]
+"17700
+[v _TXB2D7 TXB2D7 `VEuc  1 e 1 @14285 ]
+"18046
+[v _TXB1CONbits TXB1CONbits `VES245  1 e 1 @14288 ]
+"18091
+[v _TXB1SIDH TXB1SIDH `VEuc  1 e 1 @14289 ]
+"18211
+[v _TXB1SIDL TXB1SIDL `VEuc  1 e 1 @14290 ]
+"18299
+[v _TXB1EIDH TXB1EIDH `VEuc  1 e 1 @14291 ]
+"18369
+[v _TXB1EIDL TXB1EIDL `VEuc  1 e 1 @14292 ]
+"18439
+[v _TXB1DLC TXB1DLC `VEuc  1 e 1 @14293 ]
+"18492
+[v _TXB1D0 TXB1D0 `VEuc  1 e 1 @14294 ]
+"18562
+[v _TXB1D1 TXB1D1 `VEuc  1 e 1 @14295 ]
+"18632
+[v _TXB1D2 TXB1D2 `VEuc  1 e 1 @14296 ]
+"18702
+[v _TXB1D3 TXB1D3 `VEuc  1 e 1 @14297 ]
+"18772
+[v _TXB1D4 TXB1D4 `VEuc  1 e 1 @14298 ]
+"18842
+[v _TXB1D5 TXB1D5 `VEuc  1 e 1 @14299 ]
+"18912
+[v _TXB1D6 TXB1D6 `VEuc  1 e 1 @14300 ]
+"18982
+[v _TXB1D7 TXB1D7 `VEuc  1 e 1 @14301 ]
+"19311
+[v _TXB0CONbits TXB0CONbits `VES245  1 e 1 @14304 ]
+"19356
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @14305 ]
+"19476
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @14306 ]
+"19564
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @14307 ]
+"19634
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @14308 ]
+"19704
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @14309 ]
+"19757
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @14310 ]
+"19827
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @14311 ]
+"19897
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @14312 ]
+"19967
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @14313 ]
+"20037
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @14314 ]
+"20107
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @14315 ]
+"20177
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @14316 ]
+"20247
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @14317 ]
+[s S442 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"20602
+[s S451 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S456 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[u S461 . 1 `S442 1 . 1 0 `S451 1 . 1 0 `S456 1 . 1 0 ]
+[v _RXB1CONbits RXB1CONbits `VES461  1 e 1 @14320 ]
+"20667
+[v _RXB1SIDH RXB1SIDH `VEuc  1 e 1 @14321 ]
+"20787
+[v _RXB1SIDL RXB1SIDL `VEuc  1 e 1 @14322 ]
+"20880
+[v _RXB1EIDH RXB1EIDH `VEuc  1 e 1 @14323 ]
+"20950
+[v _RXB1EIDL RXB1EIDL `VEuc  1 e 1 @14324 ]
+"21020
+[v _RXB1DLC RXB1DLC `VEuc  1 e 1 @14325 ]
+"21090
+[v _RXB1D0 RXB1D0 `VEuc  1 e 1 @14326 ]
+"21160
+[v _RXB1D1 RXB1D1 `VEuc  1 e 1 @14327 ]
+"21230
+[v _RXB1D2 RXB1D2 `VEuc  1 e 1 @14328 ]
+"21300
+[v _RXB1D3 RXB1D3 `VEuc  1 e 1 @14329 ]
+"21370
+[v _RXB1D4 RXB1D4 `VEuc  1 e 1 @14330 ]
+"21440
+[v _RXB1D5 RXB1D5 `VEuc  1 e 1 @14331 ]
+"21510
+[v _RXB1D6 RXB1D6 `VEuc  1 e 1 @14332 ]
+"21580
+[v _RXB1D7 RXB1D7 `VEuc  1 e 1 @14333 ]
+[s S182 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+`uc 1 ERRIE 1 0 :1:5 
+`uc 1 WAKIE 1 0 :1:6 
+`uc 1 IRXIE 1 0 :1:7 
+]
+"25572
+[s S191 . 1 `uc 1 FIFOFIE 1 0 :1:0 
+`uc 1 RXBnIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIE 1 0 :1:4 
+]
+[s S196 . 1 `uc 1 FIFOWMIE 1 0 :1:0 
+]
+[u S198 . 1 `S182 1 . 1 0 `S191 1 . 1 0 `S196 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES198  1 e 1 @14741 ]
+[s S738 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR1GIF 1 0 :1:1 
+`uc 1 TMR2IF 1 0 :1:2 
+`uc 1 CCP1IF 1 0 :1:3 
+`uc 1 NCO1IF 1 0 :1:4 
+`uc 1 CWG1IF 1 0 :1:5 
+`uc 1 CLC1IF 1 0 :1:6 
+`uc 1 INT1IF 1 0 :1:7 
+]
+"26200
+[u S747 . 1 `S738 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES747  1 e 1 @14756 ]
+[s S145 . 1 `uc 1 RXB0IF 1 0 :1:0 
+`uc 1 RXB1IF 1 0 :1:1 
+`uc 1 TXB0IF 1 0 :1:2 
+`uc 1 TXB1IF 1 0 :1:3 
+`uc 1 TXB2IF 1 0 :1:4 
+`uc 1 ERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IRXIF 1 0 :1:7 
+]
+"26271
+[s S154 . 1 `uc 1 FIFOFIF 1 0 :1:0 
+`uc 1 RXBnIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIF 1 0 :1:4 
+]
+[s S159 . 1 `uc 1 FIFOWMIF 1 0 :1:0 
+]
+[u S161 . 1 `S145 1 . 1 0 `S154 1 . 1 0 `S159 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES161  1 e 1 @14757 ]
+"26578
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"26655
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"26725
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"26770
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"26832
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"26865
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"26910
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"26966
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"27112
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"27252
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"27404
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"27455
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"27559
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"29621
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"29683
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"29745
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"29807
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"29869
+[v _INLVLA INLVLA `VEuc  1 e 1 @14916 ]
+"30117
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"30179
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"30241
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"30303
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"30365
+[v _INLVLB INLVLB `VEuc  1 e 1 @14932 ]
+"30829
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"30891
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"30953
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"31015
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"31077
+[v _INLVLC INLVLC `VEuc  1 e 1 @14948 ]
+"31541
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"31562
+[v _INLVLE INLVLE `VEuc  1 e 1 @14980 ]
+[s S670 . 1 `uc 1 P5TSEL 1 0 :2:0 
+`uc 1 P6TSEL 1 0 :2:2 
+`uc 1 P7TSEL 1 0 :2:4 
+`uc 1 P8TSEL 1 0 :2:6 
+]
+"60797
+[s S675 . 1 `uc 1 P5TSEL0 1 0 :1:0 
+`uc 1 P5TSEL1 1 0 :1:1 
+`uc 1 P6TSEL0 1 0 :1:2 
+`uc 1 P6TSEL1 1 0 :1:3 
+`uc 1 P7TSEL0 1 0 :1:4 
+`uc 1 P7TSEL1 1 0 :1:5 
+`uc 1 P8TSEL0 1 0 :1:6 
+`uc 1 P8TSEL1 1 0 :1:7 
+]
+"60797
+[u S684 . 1 `S670 1 . 1 0 `S675 1 . 1 0 ]
+"60797
+"60797
+[v _CCPTMRS1bits CCPTMRS1bits `VES684  1 e 1 @16223 ]
+"61168
+[v _PWM7DCL PWM7DCL `VEuc  1 e 1 @16228 ]
+"61234
+[v _PWM7DCH PWM7DCH `VEuc  1 e 1 @16229 ]
+"61404
+[v _PWM7CON PWM7CON `VEuc  1 e 1 @16230 ]
+"61467
+[v _PWM6DCL PWM6DCL `VEuc  1 e 1 @16232 ]
+"61533
+[v _PWM6DCH PWM6DCH `VEuc  1 e 1 @16233 ]
+"61703
+[v _PWM6CON PWM6CON `VEuc  1 e 1 @16234 ]
+"61766
+[v _PWM5DCL PWM5DCL `VEuc  1 e 1 @16236 ]
+"61832
+[v _PWM5DCH PWM5DCH `VEuc  1 e 1 @16237 ]
+"62002
+[v _PWM5CON PWM5CON `VEuc  1 e 1 @16238 ]
+[s S361 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"63061
+[s S370 . 1 `uc 1 FILHIT 1 0 :5:0 
+`uc 1 RTRRO 1 0 :1:5 
+]
+"63061
+[s S373 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+"63061
+[s S380 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+]
+"63061
+[u S385 . 1 `S361 1 . 1 0 `S370 1 . 1 0 `S373 1 . 1 0 `S380 1 . 1 0 ]
+"63061
+"63061
+[v _RXB0CONbits RXB0CONbits `VES385  1 e 1 @16256 ]
+"63151
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @16257 ]
+"63271
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @16258 ]
+"63364
+[v _RXB0EIDH RXB0EIDH `VEuc  1 e 1 @16259 ]
+"63434
+[v _RXB0EIDL RXB0EIDL `VEuc  1 e 1 @16260 ]
+"63504
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @16261 ]
+"63618
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @16262 ]
+"63688
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @16263 ]
+"63758
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @16264 ]
+"63828
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @16265 ]
+"63898
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @16266 ]
+"63968
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @16267 ]
+"64038
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @16268 ]
+"64108
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @16269 ]
+"64178
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @16270 ]
+"64306
+[v _CANCON CANCON `VEuc  1 e 1 @16271 ]
+[s S498 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+`uc 1 RXB1OVFL 1 0 :1:6 
+`uc 1 RXB0OVFL 1 0 :1:7 
+]
+"64464
+[s S507 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_FIFOEMPTY 1 0 :1:7 
+]
+"64464
+[s S510 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 nFIFOEMPTY 1 0 :1:7 
+]
+"64464
+[s S513 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RXBNOVFL 1 0 :1:6 
+`uc 1 FIFOEMPTY 1 0 :1:7 
+]
+"64464
+[u S517 . 1 `S498 1 . 1 0 `S507 1 . 1 0 `S510 1 . 1 0 `S513 1 . 1 0 ]
+"64464
+"64464
+[v _COMSTATbits COMSTATbits `VES517  1 e 1 @16272 ]
+"64529
+[v _ECANCON ECANCON `VEuc  1 e 1 @16273 ]
+"49 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+} 0
+"50 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"62 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"58 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pwm7.c
+[v _PWM7_Initialize PWM7_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"58 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"58 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"76 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"55 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"62 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"61 C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\mcc_generated_files/ecan.c
+[v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
+{
+"145
+} 0
