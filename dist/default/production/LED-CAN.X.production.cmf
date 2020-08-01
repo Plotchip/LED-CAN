@@ -30,7 +30,7 @@ text13 CODE 0 FA7A FA7A 288 1
 text14 CODE 0 F7CA F7CA 8C 1
 text15 CODE 0 F902 F902 178 1
 cstackCOMRAM COMRAM 1 1 1 29 1
-$C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+$C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 idloc IDLOC 0 200000 200000 10 1
 init CODE 0 FFFC FFFC 4 1
 reset_vec CODE 0 0 0 4 1
@@ -349,14 +349,14 @@ FF66 text0 CODE >200:C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\main.c
 FF70 text0 CODE >201:C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\main.c
 FF7C text0 CODE >202:C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\main.c
 FF7E text0 CODE >209:C:\Users\Makarenko-PC\MPLABXProjects\LED-CAN.X\main.c
-F60C cinit CODE >16663:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F60C cinit CODE >16665:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F60C cinit CODE >16668:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F60C cinit CODE >16674:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F60C cinit CODE >16677:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F60E cinit CODE >16678:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F610 cinit CODE >16679:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
-F612 cinit CODE >16680:C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.
+F60C cinit CODE >16663:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F60C cinit CODE >16665:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F60C cinit CODE >16668:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F60C cinit CODE >16674:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F60C cinit CODE >16677:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F60E cinit CODE >16678:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F610 cinit CODE >16679:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
+F612 cinit CODE >16680:C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -391,7 +391,7 @@ _PWM7CON 3F66 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _PWM7DCH 3F65 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _PWM7DCL 3F64 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\LED-CAN.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LED-CAN.X.production.o
 __size_of_convertReg2StandardCANid 0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _PMD_Initialize F6B6 0 CODE 0 text6 dist/default/production\LED-CAN.X.production.o
@@ -414,10 +414,10 @@ _WPUA 3A41 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _WPUB 3A51 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _WPUC 3A61 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _WPUE 3A81 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+___sp 0 0 STACK 2 stack C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 _main FD02 0 CODE 0 text0 dist/default/production\LED-CAN.X.production.o
 __size_of_PWM7_LoadDutyValue 0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
-start FFFC 0 CODE 0 init C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+start FFFC 0 CODE 0 init C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 _PWM6_LoadDutyValue F712 0 CODE 0 text11 dist/default/production\LED-CAN.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 CAN_receive@tempCanMsg 14 0 COMRAM 1 cstackCOMRAM dist/default/production\LED-CAN.X.production.o
@@ -427,11 +427,11 @@ _PWM6_Initialize F646 0 CODE 0 text4 dist/default/production\LED-CAN.X.productio
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\LED-CAN.X.production.o
 _TMR2_Initialize F676 0 CODE 0 text2 dist/default/production\LED-CAN.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
-intlevel0 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
-intlevel1 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
-intlevel2 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
-intlevel3 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+__accesstop 60 0 ABS 0 - C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
+intlevel0 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
+intlevel1 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
+intlevel2 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
+intlevel3 0 0 CODE 0 text C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\LED-CAN.X.production.o
 PWM6_LoadDutyValue@dutyValue 1 0 COMRAM 1 cstackCOMRAM dist/default/production\LED-CAN.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\LED-CAN.X.production.o
@@ -443,8 +443,8 @@ _ANSELA 3A40 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _ANSELB 3A50 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _ANSELC 3A60 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 __end_of_ECAN_Initialize F902 0 CODE 0 text9 dist/default/production\LED-CAN.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 _CANCON 3F8F 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _CIOCON 3700 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 __end_of_convertReg2StandardCANid F856 0 CODE 0 text14 dist/default/production\LED-CAN.X.production.o
@@ -557,7 +557,7 @@ __Hbank14 0 0 ABS 0 bank14 dist/default/production\LED-CAN.X.production.o
 __Hbank15 0 0 ABS 0 bank15 dist/default/production\LED-CAN.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LED-CAN.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\LED-CAN.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 main@Device 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\LED-CAN.X.production.o
 __size_of_PWM6_LoadDutyValue 0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _PWM5_LoadDutyValue F6DA 0 CODE 0 text12 dist/default/production\LED-CAN.X.production.o
@@ -680,8 +680,8 @@ convertReg2ExtendedCANid@tempRXBn_EIDH 9 0 COMRAM 1 cstackCOMRAM dist/default/pr
 convertReg2ExtendedCANid@tempRXBn_EIDL 1 0 COMRAM 1 cstackCOMRAM dist/default/production\LED-CAN.X.production.o
 convertReg2ExtendedCANid@tempRXBn_SIDH 2 0 COMRAM 1 cstackCOMRAM dist/default/production\LED-CAN.X.production.o
 convertReg2ExtendedCANid@tempRXBn_SIDL 3 0 COMRAM 1 cstackCOMRAM dist/default/production\LED-CAN.X.production.o
-stackhi FFF 0 ABS 0 - C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
-stacklo 60 0 ABS 0 - C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+stackhi FFF 0 ABS 0 - C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
+stacklo 60 0 ABS 0 - C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 _OSCCON1 39D9 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _OSCCON3 39DB 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
 _OSCTUNE 39DE 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
@@ -741,7 +741,7 @@ __Ltext14 0 0 ABS 0 text14 dist/default/production\LED-CAN.X.production.o
 __Ltext15 0 0 ABS 0 text15 dist/default/production\LED-CAN.X.production.o
 __end_of_PWM5_Initialize F646 0 CODE 0 text5 dist/default/production\LED-CAN.X.production.o
 __size_of_PWM5_LoadDutyValue 0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o
-__ramtop 1000 0 RAM 0 ramtop C:\Users\MAKARE~1\AppData\Local\Temp\s4oo.o
+__ramtop 1000 0 RAM 0 ramtop C:\Users\MAKARE~1\AppData\Local\Temp\s1oc.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\LED-CAN.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LED-CAN.X.production.o
 _TXB1CONbits 37D0 0 ABS 0 - dist/default/production\LED-CAN.X.production.o

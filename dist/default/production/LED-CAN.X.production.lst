@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.05 build -831301201 
-                                                                                               Sat Aug 01 03:23:25 2020
+                                                                                               Sat Aug 01 03:37:06 2020
 
 Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1 
      1                           	processor	18F26K83
@@ -2948,7 +2948,7 @@ SFR                  0      0       0     200        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.05 build -831301201 
-Symbol Table                                                                                   Sat Aug 01 03:23:25 2020
+Symbol Table                                                                                   Sat Aug 01 03:37:06 2020
 
                                       __CFG_CP$OFF 000000                           __size_of_ECAN_Initialize 00AC  
                       __size_of_PWM6_LoadDutyValue 0038                                        __CFG_LVP$ON 000000  
