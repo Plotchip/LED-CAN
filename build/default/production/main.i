@@ -36702,11 +36702,152 @@ void main(void)
 {
 
     SYSTEM_Initialize();
-# 64 "main.c"
+
+        uCAN_MSG DeviceSend;
+        uCAN_MSG *Device;
+
+        char dummy;
+        Device=&DeviceSend;
+# 72 "main.c"
+      PORTBbits.RB4 = 0;
+
+       void Color_Test();
+
+
+       PWM6_LoadDutyValue(0);
+       PWM7_LoadDutyValue(0);
+       PWM5_LoadDutyValue(0);
+
+
     while (1)
     {
 
-        void Color_Test();
+
+
+     dummy=CAN_receive(Device);
+
+    switch (Device->frame.data0){
+
+    case 0x04:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(1023);
+            PWM5_LoadDutyValue(1023);
+        break;
+
+    case 0x05:
+
+            PWM6_LoadDutyValue(512);
+            PWM7_LoadDutyValue(512);
+            PWM5_LoadDutyValue(512);
+        break;
+
+    case 0x06:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(0);
+            PWM5_LoadDutyValue(512);
+        break;
+
+
+    case 0x07:
+
+            PWM6_LoadDutyValue(760);
+            PWM7_LoadDutyValue(760);
+            PWM5_LoadDutyValue(760);
+    break;
+
+    case 0x08:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(0);
+            PWM5_LoadDutyValue(0);
+    break;
+
+    case 0x09:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(511);
+            PWM5_LoadDutyValue(0);
+    break;
+
+    case 0x0A:
+
+            PWM6_LoadDutyValue(511);
+            PWM7_LoadDutyValue(511);
+            PWM5_LoadDutyValue(0);
+    break;
+
+    case 0x0B:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(511);
+            PWM5_LoadDutyValue(511);
+    break;
+
+    case 0x0C:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(0);
+            PWM5_LoadDutyValue(1023);
+    break;
+
+    case 0x0D:
+
+            PWM6_LoadDutyValue(0);
+            PWM7_LoadDutyValue(1023);
+            PWM5_LoadDutyValue(0);
+    break;
+
+    case 0x0E:
+
+            PWM6_LoadDutyValue(511);
+            PWM7_LoadDutyValue(300);
+            PWM5_LoadDutyValue(511);
+    break;
+
+    case 0x0F:
+
+            PWM6_LoadDutyValue(1023);
+            PWM7_LoadDutyValue(1023);
+            PWM5_LoadDutyValue(1023);
+    break;
+
+    case 0x10:
+
+            PWM6_LoadDutyValue(1023);
+            PWM7_LoadDutyValue(0);
+            PWM5_LoadDutyValue(1023);
+    break;
+
+    case 0x11:
+
+            PWM6_LoadDutyValue(511);
+            PWM7_LoadDutyValue(0);
+            PWM5_LoadDutyValue(0);
+    break;
+
+    case 0x12:
+
+            PWM6_LoadDutyValue(1023);
+            PWM7_LoadDutyValue(0);
+            PWM5_LoadDutyValue(0);
+    break;
+
+    case 0x13:
+
+            PWM6_LoadDutyValue(1023);
+            PWM7_LoadDutyValue(1023);
+            PWM5_LoadDutyValue(0);
+    break;
+
+
+
+    default:
+
+        break;
+    }
+
     }
 }
 
