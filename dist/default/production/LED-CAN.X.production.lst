@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.05 build -831301201 
-                                                                                               Sat Aug 01 02:34:41 2020
+                                                                                               Sat Aug 01 02:43:35 2020
 
 Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1 
      1                           	processor	18F26K83
@@ -308,10 +308,10 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
    289                           
    290                           ;incstack = 0
    291  00FE38  EC61  F07F         	call	_SYSTEM_Initialize	;wreg free
-   292  00FE3C                     l7:
+   292  00FE3C                     l15:
    293                           
-   294                           ;main.c: 65:     {;main.c: 67:     }
-   295  00FE3C  D7FF               	goto	l7
+   294                           ;main.c: 65:     {;main.c: 68:     }
+   295  00FE3C  D7FF               	goto	l15
    296  00FE3E                     __end_of_main:
    297                           	opt callstack 0
    298                           
@@ -1001,12 +1001,12 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
    937                           ;incstack = 0
    938  00FF50  0E80               	movlw	128
    939  00FF52  6E8F               	movwf	16271,c	;volatile
-   940  00FF54                     l1231:
+   940  00FF54                     l1242:
    941  00FF54  508E               	movf	16270,w,c	;volatile
    942  00FF56  0BE0               	andlw	224
    943  00FF58  0A80               	xorlw	128
    944  00FF5A  A4D8               	btfss	status,2,c
-   945  00FF5C  D7FB               	goto	l1231
+   945  00FF5C  D7FB               	goto	l1242
    946                           
    947                           ;mcc_generated_files/ecan.c: 69:     ECANCON = 0x00;
    948  00FF5E  0E00               	movlw	0
@@ -1160,13 +1160,13 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1096                           ;mcc_generated_files/ecan.c: 142:     CANCON = 0x00;
   1097  00FFE8  0E00               	movlw	0
   1098  00FFEA  6E8F               	movwf	16271,c	;volatile
-  1099  00FFEC                     l1247:
+  1099  00FFEC                     l1258:
   1100  00FFEC  006F FE38  F001    	movff	16270,??_ECAN_Initialize	;volatile
   1101  00FFF2  0EE0               	movlw	224
   1102  00FFF4  1601               	andwf	??_ECAN_Initialize,f,c
   1103  00FFF6  B4D8               	btfsc	status,2,c
   1104  00FFF8  0012               	return	
-  1105  00FFFA  D7F8               	goto	l1247
+  1105  00FFFA  D7F8               	goto	l1258
   1106  00FFFC                     __end_of_ECAN_Initialize:
   1107                           	opt callstack 0
   1108  0000                     
@@ -1427,14 +1427,14 @@ SFR                  0      0       0     200        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.05 build -831301201 
-Symbol Table                                                                                   Sat Aug 01 02:34:41 2020
+Symbol Table                                                                                   Sat Aug 01 02:43:35 2020
 
-                              l7 FE3C                      __CFG_CP$OFF 000000  
+                    __CFG_CP$OFF 000000                               l15 FE3C  
        __size_of_ECAN_Initialize 00AC                      __CFG_LVP$ON 000000  
                             _PR2 003FAB          __size_of_PMD_Initialize 0024  
                 _TMR2_Initialize FEA4                    __CFG_BBEN$OFF 000000  
-                   __CFG_ZCD$OFF 000000                             l1231 FF54  
-                           l1247 FFEC                             _LATA 003FBA  
+                   __CFG_ZCD$OFF 000000                             l1242 FF54  
+                           l1258 FFEC                             _LATA 003FBA  
                            _LATB 003FBB                             _LATC 003FBC  
                            _T2PR 003FAB                             _PMD0 0039C0  
                            _PMD1 0039C1                             _PMD2 0039C2  

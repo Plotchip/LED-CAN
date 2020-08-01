@@ -36706,5 +36706,106 @@ void main(void)
     while (1)
     {
 
+        void Color_Test();
     }
+}
+
+void Color_Test()
+{
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(1023);
+      PWM5_LoadDutyValue(1023);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(512);
+      PWM7_LoadDutyValue(512);
+      PWM5_LoadDutyValue(512);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(0);
+      PWM5_LoadDutyValue(512);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(760);
+      PWM7_LoadDutyValue(760);
+      PWM5_LoadDutyValue(760);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(0);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(511);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(511);
+      PWM7_LoadDutyValue(511);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(511);
+      PWM5_LoadDutyValue(511);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(0);
+      PWM5_LoadDutyValue(1023);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(0);
+      PWM7_LoadDutyValue(1023);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(511);
+      PWM7_LoadDutyValue(300);
+      PWM5_LoadDutyValue(511);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(1023);
+      PWM7_LoadDutyValue(1023);
+      PWM5_LoadDutyValue(1023);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(1023);
+      PWM7_LoadDutyValue(0);
+      PWM5_LoadDutyValue(1023);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(511);
+      PWM7_LoadDutyValue(0);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(1023);
+      PWM7_LoadDutyValue(0);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
+
+      PWM6_LoadDutyValue(1023);
+      PWM7_LoadDutyValue(1023);
+      PWM5_LoadDutyValue(0);
+      _delay((unsigned long)((3000)*(1000000/4000.0)));
+
 }
