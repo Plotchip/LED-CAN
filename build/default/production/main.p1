@@ -3,6 +3,19 @@ Version 4.0 HI-TECH Software Intermediate Code
 "73 ./mcc_generated_files/mcc.h
 [; ;./mcc_generated_files/mcc.h: 73: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"129 ./mcc_generated_files/pwm6.h
+[; ;./mcc_generated_files/pwm6.h: 129:  void PWM6_LoadDutyValue(uint16_t dutyValue);
+[v _PWM6_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
+"129 ./mcc_generated_files/pwm7.h
+[; ;./mcc_generated_files/pwm7.h: 129:  void PWM7_LoadDutyValue(uint16_t dutyValue);
+[v _PWM7_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
+"129 ./mcc_generated_files/pwm5.h
+[; ;./mcc_generated_files/pwm5.h: 129:  void PWM5_LoadDutyValue(uint16_t dutyValue);
+[v _PWM5_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
+[v F22523 `(v ~T0 @X0 1 tf1`ul ]
+"183 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18.h
+[v __delay `JF22523 ~T0 @X0 0 e ]
+[p i __delay ]
 "272 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f26k83.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f26k83.h: 272: __asm("CIOCON equ 03700h");
 [; <" CIOCON equ 03700h ;# ">
@@ -3045,13 +3058,217 @@ Version 4.0 HI-TECH Software Intermediate Code
 "65
 [; ;main.c: 65:     {
 {
-"67
-[; ;main.c: 67:     }
+"68
+[; ;main.c: 68:     }
 }
 [e :U 3206 ]
 [e $U 3207  ]
 [e :U 3208 ]
-"68
-[; ;main.c: 68: }
+"69
+[; ;main.c: 69: }
 [e :UE 3205 ]
+}
+"71
+[; ;main.c: 71: void Color_Test()
+[v _Color_Test `(v ~T0 @X0 1 ef ]
+"72
+[; ;main.c: 72: {
+{
+[e :U _Color_Test ]
+[f ]
+"74
+[; ;main.c: 74:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"75
+[; ;main.c: 75:       PWM7_LoadDutyValue(1023);
+[e ( _PWM7_LoadDutyValue (1 -> -> 1023 `i `us ]
+"76
+[; ;main.c: 76:       PWM5_LoadDutyValue(1023);
+[e ( _PWM5_LoadDutyValue (1 -> -> 1023 `i `us ]
+"77
+[; ;main.c: 77:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"80
+[; ;main.c: 80:       PWM6_LoadDutyValue(512);
+[e ( _PWM6_LoadDutyValue (1 -> -> 512 `i `us ]
+"81
+[; ;main.c: 81:       PWM7_LoadDutyValue(512);
+[e ( _PWM7_LoadDutyValue (1 -> -> 512 `i `us ]
+"82
+[; ;main.c: 82:       PWM5_LoadDutyValue(512);
+[e ( _PWM5_LoadDutyValue (1 -> -> 512 `i `us ]
+"83
+[; ;main.c: 83:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"86
+[; ;main.c: 86:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"87
+[; ;main.c: 87:       PWM7_LoadDutyValue(0);
+[e ( _PWM7_LoadDutyValue (1 -> -> 0 `i `us ]
+"88
+[; ;main.c: 88:       PWM5_LoadDutyValue(512);
+[e ( _PWM5_LoadDutyValue (1 -> -> 512 `i `us ]
+"89
+[; ;main.c: 89:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"92
+[; ;main.c: 92:       PWM6_LoadDutyValue(760);
+[e ( _PWM6_LoadDutyValue (1 -> -> 760 `i `us ]
+"93
+[; ;main.c: 93:       PWM7_LoadDutyValue(760);
+[e ( _PWM7_LoadDutyValue (1 -> -> 760 `i `us ]
+"94
+[; ;main.c: 94:       PWM5_LoadDutyValue(760);
+[e ( _PWM5_LoadDutyValue (1 -> -> 760 `i `us ]
+"95
+[; ;main.c: 95:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"98
+[; ;main.c: 98:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"99
+[; ;main.c: 99:       PWM7_LoadDutyValue(0);
+[e ( _PWM7_LoadDutyValue (1 -> -> 0 `i `us ]
+"100
+[; ;main.c: 100:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"101
+[; ;main.c: 101:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"104
+[; ;main.c: 104:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"105
+[; ;main.c: 105:       PWM7_LoadDutyValue(511);
+[e ( _PWM7_LoadDutyValue (1 -> -> 511 `i `us ]
+"106
+[; ;main.c: 106:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"107
+[; ;main.c: 107:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"110
+[; ;main.c: 110:       PWM6_LoadDutyValue(511);
+[e ( _PWM6_LoadDutyValue (1 -> -> 511 `i `us ]
+"111
+[; ;main.c: 111:       PWM7_LoadDutyValue(511);
+[e ( _PWM7_LoadDutyValue (1 -> -> 511 `i `us ]
+"112
+[; ;main.c: 112:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"113
+[; ;main.c: 113:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"116
+[; ;main.c: 116:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"117
+[; ;main.c: 117:       PWM7_LoadDutyValue(511);
+[e ( _PWM7_LoadDutyValue (1 -> -> 511 `i `us ]
+"118
+[; ;main.c: 118:       PWM5_LoadDutyValue(511);
+[e ( _PWM5_LoadDutyValue (1 -> -> 511 `i `us ]
+"119
+[; ;main.c: 119:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"122
+[; ;main.c: 122:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"123
+[; ;main.c: 123:       PWM7_LoadDutyValue(0);
+[e ( _PWM7_LoadDutyValue (1 -> -> 0 `i `us ]
+"124
+[; ;main.c: 124:       PWM5_LoadDutyValue(1023);
+[e ( _PWM5_LoadDutyValue (1 -> -> 1023 `i `us ]
+"125
+[; ;main.c: 125:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"128
+[; ;main.c: 128:       PWM6_LoadDutyValue(0);
+[e ( _PWM6_LoadDutyValue (1 -> -> 0 `i `us ]
+"129
+[; ;main.c: 129:       PWM7_LoadDutyValue(1023);
+[e ( _PWM7_LoadDutyValue (1 -> -> 1023 `i `us ]
+"130
+[; ;main.c: 130:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"131
+[; ;main.c: 131:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"134
+[; ;main.c: 134:       PWM6_LoadDutyValue(511);
+[e ( _PWM6_LoadDutyValue (1 -> -> 511 `i `us ]
+"135
+[; ;main.c: 135:       PWM7_LoadDutyValue(300);
+[e ( _PWM7_LoadDutyValue (1 -> -> 300 `i `us ]
+"136
+[; ;main.c: 136:       PWM5_LoadDutyValue(511);
+[e ( _PWM5_LoadDutyValue (1 -> -> 511 `i `us ]
+"137
+[; ;main.c: 137:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"140
+[; ;main.c: 140:       PWM6_LoadDutyValue(1023);
+[e ( _PWM6_LoadDutyValue (1 -> -> 1023 `i `us ]
+"141
+[; ;main.c: 141:       PWM7_LoadDutyValue(1023);
+[e ( _PWM7_LoadDutyValue (1 -> -> 1023 `i `us ]
+"142
+[; ;main.c: 142:       PWM5_LoadDutyValue(1023);
+[e ( _PWM5_LoadDutyValue (1 -> -> 1023 `i `us ]
+"143
+[; ;main.c: 143:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"146
+[; ;main.c: 146:       PWM6_LoadDutyValue(1023);
+[e ( _PWM6_LoadDutyValue (1 -> -> 1023 `i `us ]
+"147
+[; ;main.c: 147:       PWM7_LoadDutyValue(0);
+[e ( _PWM7_LoadDutyValue (1 -> -> 0 `i `us ]
+"148
+[; ;main.c: 148:       PWM5_LoadDutyValue(1023);
+[e ( _PWM5_LoadDutyValue (1 -> -> 1023 `i `us ]
+"149
+[; ;main.c: 149:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"152
+[; ;main.c: 152:       PWM6_LoadDutyValue(511);
+[e ( _PWM6_LoadDutyValue (1 -> -> 511 `i `us ]
+"153
+[; ;main.c: 153:       PWM7_LoadDutyValue(0);
+[e ( _PWM7_LoadDutyValue (1 -> -> 0 `i `us ]
+"154
+[; ;main.c: 154:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"155
+[; ;main.c: 155:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"158
+[; ;main.c: 158:       PWM6_LoadDutyValue(1023);
+[e ( _PWM6_LoadDutyValue (1 -> -> 1023 `i `us ]
+"159
+[; ;main.c: 159:       PWM7_LoadDutyValue(0);
+[e ( _PWM7_LoadDutyValue (1 -> -> 0 `i `us ]
+"160
+[; ;main.c: 160:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"161
+[; ;main.c: 161:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"164
+[; ;main.c: 164:       PWM6_LoadDutyValue(1023);
+[e ( _PWM6_LoadDutyValue (1 -> -> 1023 `i `us ]
+"165
+[; ;main.c: 165:       PWM7_LoadDutyValue(1023);
+[e ( _PWM7_LoadDutyValue (1 -> -> 1023 `i `us ]
+"166
+[; ;main.c: 166:       PWM5_LoadDutyValue(0);
+[e ( _PWM5_LoadDutyValue (1 -> -> 0 `i `us ]
+"167
+[; ;main.c: 167:       _delay((unsigned long)((3000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"169
+[; ;main.c: 169: }
+[e :UE 3209 ]
 }

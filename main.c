@@ -64,7 +64,108 @@ void main(void)
     while (1)
     {
         // Add your application code
+        void Color_Test();
     }
+}
+
+void Color_Test() 
+{
+      //CYAN
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(1023); // GREEN
+      PWM5_LoadDutyValue(1023);// BLUE
+      __delay_ms(3000); // 1 Second Delay
+      
+      //GRAY
+      PWM6_LoadDutyValue(512); // RED
+      PWM7_LoadDutyValue(512); // GREEN
+      PWM5_LoadDutyValue(512);// BLUE
+      __delay_ms(3000); // 1 Second Delay 
+      
+      //NAVY
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(0); // GREEN
+      PWM5_LoadDutyValue(512);// BLUE
+      __delay_ms(3000); // 1 Second Delay 
+ 
+      //SILVER
+      PWM6_LoadDutyValue(760); // RED
+      PWM7_LoadDutyValue(760); // GREEN
+      PWM5_LoadDutyValue(760);// BLUE
+      __delay_ms(3000); // 1 Second Delay
+         
+      //BLACK
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(0); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE
+      __delay_ms(3000); // 1 Second Delay 
+         
+      //GREEN
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(511); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE
+      __delay_ms(3000); // 1 Second Delay       
+      
+      //OLIVE
+      PWM6_LoadDutyValue(511); // RED
+      PWM7_LoadDutyValue(511); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE
+      __delay_ms(3000); // 1 Second Delay   
+       
+      //TEAL
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(511); // GREEN
+      PWM5_LoadDutyValue(511);// BLUE
+      __delay_ms(3000); // 1 Second Delay   
+       
+      //BLUE
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(0); // GREEN
+      PWM5_LoadDutyValue(1023);// BLUE
+      __delay_ms(3000); // 1 Second Delay
+        
+      //LIME
+      PWM6_LoadDutyValue(0); // RED
+      PWM7_LoadDutyValue(1023); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE   
+      __delay_ms(3000); // 1 Second Delay
+      
+      //PURPLE
+      PWM6_LoadDutyValue(511); // RED
+      PWM7_LoadDutyValue(300); // GREEN
+      PWM5_LoadDutyValue(511);// BLUE   
+      __delay_ms(3000); // 1 Second Delay
+      
+      //WHITE
+      PWM6_LoadDutyValue(1023); // RED
+      PWM7_LoadDutyValue(1023); // GREEN
+      PWM5_LoadDutyValue(1023);// BLUE
+      __delay_ms(3000); // 1 Second Delay 
+    
+       //FUCSIA
+      PWM6_LoadDutyValue(1023); // RED
+      PWM7_LoadDutyValue(0); // GREEN
+      PWM5_LoadDutyValue(1023);// BLUE
+      __delay_ms(3000); // 1 Second Delay
+        
+      //MAROON
+      PWM6_LoadDutyValue(511); // RED
+      PWM7_LoadDutyValue(0); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE   
+      __delay_ms(3000); // 1 Second Delay
+      
+      //RED
+      PWM6_LoadDutyValue(1023); // RED
+      PWM7_LoadDutyValue(0); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE   
+      __delay_ms(3000); // 1 Second Delay
+      
+      //YELLOW
+      PWM6_LoadDutyValue(1023); // RED
+      PWM7_LoadDutyValue(1023); // GREEN
+      PWM5_LoadDutyValue(0);// BLUE
+      __delay_ms(3000); // 1 Second Delay 
+      
 }
 /**
  End of File
